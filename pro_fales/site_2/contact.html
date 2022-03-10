@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head><meta charset="UTF-8">
+        <title>Контакты</title></head>
+        <link rel="stylesheet" href="style/style.css">
+    <body>
+    <div class="container clearfix">
+<!--Меню сайта-->
+        <div class="header clearfix"><img class="logo all" src="img/logo3.png" alt="Логотип" title="Логотип"><ul class="menu"><h1>Эдем</h1>
+        <li><a class="menu1" href="index.html">Главная</a></li>
+        <li><a href="product.html">Каталог</a></li>
+        <li><a href="contact.html">Контакты</a></li></ul></div>
+<!--Сделать заказ-->
+            <div class="content clearfix"><fieldset><legend><h2>Сделать заказ</h2></legend>
+                <form action="index.php">
+                    <table>
+                        <tr><td colspan class="full"><label><input type="checkbox" >Семена</label>
+                            <label><input type="checkbox" >Саженцы</label>
+                            <label><input type="checkbox" >Плоды</label></td></tr>
+                        <tr><td>Количество</td>
+                        <td><textarea name="number" placeholder="Количество"></textarea></td></tr>
+                        <tr><td>Способ доставки<select name="delivery" ><option id="pickup">Самовывоз</option><option id="to address">До адреса</option></select></td>
+                        <td>Адрес доставки</td></tr>
+                        <tr><td colspan class="full"><textarea class="to addres" name="addres" placeholder="Адрес доставки" ></textarea></td></tr></table></fieldset>
+                    <!--<ul class="chek"><li>Продукт<label><input type="checkbox" >Семена</label>
+                    <label><input type="checkbox" >Саженцы</label>
+                    <label><input type="checkbox" >Плоды</label></li>
+                    <li>Количество<textarea name="number" placeholder="Количество"></textarea></li>
+                    <li>Способ доставки<select name="delivery" ><option id="pickup">Самовывоз</option>
+                    <option id="to address">До адреса</option></select></li>
+                    <li>Адрес доставки<textarea name="addres" placeholder="Адрес доставки" ></textarea></li></ul></form>-->
+<!--Напишите нам-->
+            <form action="index.php">
+                <fieldset><legend><h2>Напишите нам</h2></legend><ul class="feedback"><li></li><input type="text" placeholder="Ваше имя" name="name">
+                <input type="text" placeholder="E-mail" name="email">
+                <input type="text" placeholder="Тема обращения" name="them"></li>
+                <li><textarea name="text" placeholder="Текст обращения" cols="100" rows="10"></textarea></li>
+                <li><input type="submit" name="save" placeholder="Отправить" ></li></ul></fieldset></form>
+<!--Адрес магазина-->
+            <fieldset><legend><h2>Адрес</h2></legend>
+                <ul class="addres"><li>Телефон: </li>
+                <li>Адрес: </li>
+                <li>E-mail: </li>
+                <li><legend>Как пройти</legend>
+                    <fieldset><script class="map" type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aa4a25168d39e2241b9838a4388a2c39b68f86f26072cc3f8864cc2086695c70c&amp;width=100%25&amp;height=370&amp;lang=ru_RU&amp;scroll=true"></script></fieldset></li></ul></fieldset></div>
+        <div class="footer clearfix"><br>&copy; Все права сохранены</div></div>
+    </body>
+</html>

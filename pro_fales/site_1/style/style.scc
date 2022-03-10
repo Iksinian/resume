@@ -1,0 +1,52 @@
+﻿/* @media​ screen ​and​ ​(​min­​width​:​ ​1200px​)​ ​{​ ​} при выставлении закрывающей скобки внизу - стили отключаются  */
+@font-face {font-family: 'Conv_Vetka'; src: url('../fonts/Vetka.eot'); 
+src: local('0'), url('../fonts/Vetka.woff') format('woff'), 
+url('../fonts/Vetka.ttf') format('truetype'), url('../fonts/Vetka.svg') format('svg'); 
+font-width: normal; font-style: normal;}
+html {position: relative;
+    min-height: 100%;}
+body {font: 18px black; margin: 0px; font-family: 'Conv_Vetka'; height: 100%;
+margin-bottom: 5vh; position-align: center; }
+.fa {font: 80px #141841;}
+.header {display: block;
+			height: 100%;
+			align: center;
+			margin-top: 0px;
+			position-align: center;
+			text-align: left; 
+			padding-left: 45px; }
+div {position: relative;}
+.front {text-align: center; object-position: center; width: 70%; 
+	margin-top: 0px; 
+		padding-top: 0px;}
+.container {display: inline-block; height: 100%; text-align: center; }
+.menu {display: inline-block; margin: 0px; padding: 5px; 
+	background-color: #f8f8ee; background-color: #f8f8ee;
+	font: 26px; text-align: center; }
+footer {position: absolute; bottom: 0; width: 100%; height: 5vh;
+ margin-top: 10px;  text-align: right; }
+.row {background-color: #193441; text-align: center; font-color: #f8f8ee;}
+p {font-size: 18px; }
+.buy {font: 15px black;}
+input {font: 14px grey; font-family: 'Conv_Vetka';}
+textarea {font-family: 'Conv_Vetka'; font: grey 14px; width: 600px; 
+height: 80px;}
+textarea:focus {background-color: #f8f8ee; color: #125845;}
+textarea,.email:hover {background-color: #f8f8ee;}
+button {font: 20px black; font-family: 'Conv_Vetka'; padding: 5px; 
+text-align: center;}
+img[alt] {border: solid 3px #10bd18; width: 250px;}
+img[alt1] {float: left; margin-right: 25px;}
+img[alt2] {border: solid 3px red; width: 250px;}
+img[alt2] :hover {border: solid 3px; rgba: 225,225,225,0; width: 250px;}
+img[alt3] {width: 15px;}
+a {color: #6b239e;}
+a:active {color: #bfbf51; }
+a:hover {color: #125845; }
+	
+										
+@media​ screen ​and​ ​(​max​­​width​:​ ​1999px​)​ ​{​ ​}
+@media​ screen ​and​ ​(​max​­​width​:​ ​992px​)​ ​{​ ​}
+@media​ screen ​and​ ​(​max​­​width​:​ ​768px​)​ ​{​ ​}
+@media​ screen ​and​ ​(​max​­​width​:​ ​480px​)​ ​{​ ​}
+@media​ screen ​and​ ​(​max​­​width​:​ ​320px​)​ ​{​ }
