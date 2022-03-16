@@ -1,0 +1,6 @@
+/*НЕ ЗАБЫВАЙ ПРО НАСЛЕДОВАНИЯ!!*/
+HTML {height: 100%; width: 100%}
+body {height: 100%;
+    font-family: Georgia;}
+section {background-color: black; 
+    font-size: 25px; color: red; padding: 20px;}
