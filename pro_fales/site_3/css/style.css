@@ -1,4 +1,5 @@
 /*НЕ ЗАБЫВАЙ ПРО НАСЛЕДОВАНИЯ!!*/
-html {height: 100%; width: 100%}
+HTML {height: 100%; width: 100%}
 body {height: 100%;}
-section {background-color: black; }
+section {background-color: black; 
+    font-size: 25px; font: red;}
