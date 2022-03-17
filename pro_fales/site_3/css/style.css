@@ -1,7 +1,7 @@
 /*НЕ ЗАБЫВАЙ ПРО НАСЛЕДОВАНИЯ!!*/
 HTML {height: 100%; width: 100%}
-body {height: 100%;
+body {height: 100%; 
     font-family: Georgia;}
-section {background-color: black; 
-    font-size: 25px; color: red; padding: 20px;}
-.header__topbar {display:block; position:relative left; font-size: 16px;}
+section {}
+.header__topbar {display:block; position:relative; font-size: 16px;}
+div {}
