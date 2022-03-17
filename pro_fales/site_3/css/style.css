@@ -4,3 +4,4 @@ body {height: 100%;
     font-family: Georgia;}
 section {background-color: black; 
     font-size: 25px; color: red; padding: 20px;}
+.header__topbar {display:block; position:relative left; font-size: 16px;}
