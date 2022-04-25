@@ -2,6 +2,7 @@
 HTML {height: 100%; width: 100%}
 body {height: 100%; 
     font-family: Georgia;}
-section {}
+    div {}
+.section {}
 .header__topbar {display:block; position:relative; font-size: 16px;}
-div {}
+
