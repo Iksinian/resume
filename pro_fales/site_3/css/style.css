@@ -1,8 +1,17 @@
 /*НЕ ЗАБЫВАЙ ПРО НАСЛЕДОВАНИЯ!!*/
 HTML {height: 100%; width: 100%}
 body {height: 100%; 
-    font-family: Georgia;}
-    div {}
-.section {}
-.header__topbar {display:block; position:relative; font-size: 16px;}
-
+    font-family: Georgia; margin: 0;}
+.conteiner {margin: 0 auto; width: 960px;}
+.top-menu {background-color: #55415f; font-size: 11px; padding: 5px 20px;  text-align: right; }
+.top-menu__list-item {display: inline-block; }
+.top-menu__list-item:after {content: " |"; color: #fff;}
+.top-menu__list-item_and:after {content: '' ;}
+.top-menu__list-item__link {color: #fff; text-decoration: none;}
+.header {padding: 38px 0 41;}
+.header__title {font-size: 26px; }
+.header__subtitle {color: #999; display: block; margin-top: 17px; font-size: 12px;}
+.header-menu {margin-top: -82px; text-align: right; padding-bottom: 82px;}
+.header-menu__list-item {display: inline-block;}
+.header-menu__list-item__link {color: #333; font-size: 12px; display:block; padding: 10px;text-decoration: none;}
+.header-menu__list-item__link-and {padding: 0;}
